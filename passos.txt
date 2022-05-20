@@ -1,0 +1,9 @@
+importar a chave publica
+
+	gpg --export-secret-key validacaoEPS@telefonica.com > PrivatekeyAcessoriasVivoCobranca4pII.key
+
+Importar chave para ambiente de homologação
+
+	gpg --import PrivatekeyAcessoriasVivoCobranca4pII.key 
+
+	A senha privada é 'cobranca4pII'
